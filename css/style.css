@@ -84,11 +84,10 @@ p{
 }
 
 .nav-item {
-    position: relative;
-    color: #404bbf;
+    
 }
 
-.nav-item::after {
+.nav-item-link-studio::after {
     content: '';
     width: 100%;
     position: absolute;
@@ -109,6 +108,12 @@ p{
     padding-top: 24px;
     padding-bottom: 24px;
     display: block;
+    
+}
+
+.nav-item-link-studio {
+    position: relative;
+    color: #404bbf;
 }
 
 .nav-item-link:hover,
