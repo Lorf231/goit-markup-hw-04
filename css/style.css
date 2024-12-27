@@ -290,6 +290,29 @@ p{
     text-align: center;
 }
 
+.icons-list {
+    display: flex;
+}
+
+.icons-item {
+    fill: none;
+}
+
+.icons-item-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 40%;
+    background-color: #4d5ae5;
+    column-gap: 24px;    
+}
+
+.icon {
+    fill: #fff;
+}
+
 /* #endregion */
 
 /* #region portfolio*/
