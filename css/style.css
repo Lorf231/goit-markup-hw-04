@@ -448,7 +448,12 @@ p{
 }
 
 .bottom .container {
-    
+    display: flex;
+    align-items: baseline;
+}
+
+.bottom-text {
+    margin-right: 120px;
 }
 
 .bottom .logo {
