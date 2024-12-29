@@ -9,6 +9,7 @@ a {
 }
 
 ul, ol {
+    margin: 0;
     list-style-type: none;
     padding-inline-start: 0px;
 }
@@ -159,6 +160,7 @@ p{
 
 /* #region hero*/
 .hero {
+    margin: 0 auto;
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
@@ -499,7 +501,7 @@ p{
 }
 
 .bottom-text {
-    max-width: 264px;
+    width: 264px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
